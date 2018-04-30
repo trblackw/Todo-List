@@ -82,7 +82,7 @@ var view = {
             if (todo.completed === true) {
             todoTextWithCompletion = '(x) ' + todo.todoText;
             } else {
-            todoTextWithCompletion = 'fa fa-facebook ' + todo.todoText;
+            todoTextWithCompletion = '( ) ' + todo.todoText;
             }
 
             todoLi.id = position;
